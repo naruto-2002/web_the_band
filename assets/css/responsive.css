@@ -1,0 +1,132 @@
+/* pc */
+@media (min-width: 1024px) {
+    #footer .social-list a {
+        padding: 8px;
+    }
+
+}
+/* tablet && mobile */
+@media (max-width: 1023px){
+    .sub-navigation li a {
+        line-height: 46px;
+    }
+
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-info {
+        font-size: 22px;
+        line-height: 1.7;
+    }
+
+    .contact-form .form-control {
+        padding: 14px;
+    }
+
+    #footer .social-list {
+        font-size: 38px;
+    }
+
+
+    #footer .copy-right, #footer .copy-right a {
+        font-size: 20px;
+        margin: 38px 0px;
+    }
+
+    .modal-container {
+        width: 500px;
+    }
+
+}
+
+
+
+
+
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+/* mobile */
+@media (max-width: 739px){
+    /* common */
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .row {
+        display: block !important;
+    }
+
+    .row::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .row,
+    .col {
+        margin: 0px;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    } 
+
+    .btn {
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .navigation {
+        display: block;
+    }
+
+    .navigation > li > a {
+        padding: 1px 24px;
+    }
+
+    #header .navigation > li {
+        display: block;
+    }
+
+    #header .sub-navigation {
+        position: initial;
+        background-color: #333;
+    }
+    
+    #header .sub-navigation a {
+        color: white;
+        padding: 5px 38px;
+    }
+    
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .menu-btn {
+        display: block;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .tour-sections .place-list {
+        padding: 16px 0px;
+    }
+
+    .contact-info {
+        font-size: 16px;
+    }
+
+    #footer .social-list a {
+        padding: 5px;
+    }
+
+}
